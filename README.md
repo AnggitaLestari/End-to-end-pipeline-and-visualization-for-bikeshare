@@ -1,14 +1,14 @@
 # Bikeshare-Data-ETL-Analysis-Visualization-Pipeline
 
-### Welcome to My Business Intelligence Project Repository!
+## Welcome to My Business Intelligence Project Repository!
 
-## Hello there! 👋 
+### Hello there! 👋 
 
 This repository showcases my journey from a coding novice to a budding Business Intelligence and Data Analytics. 
 
 Here, you'll find the code for my Bikeshare Data ETL and Analysis project, which I completed during the intensive Business Intelligence Bootcamp at Binar Academy.
 
-## About This Project
+### About This Project
 
 This comprehensive project demonstrates my newly acquired skills in:
 * Data Engineering with Python and Prefect
@@ -23,10 +23,10 @@ The dataset used in this project is the Bikeshare Dataset, which can be download
 
 * [Bikeshare Dataset (RAR file)](https://bikesharedataset.s3.ap-southeast-2.amazonaws.com/Bikeshare_Dataset/Bikeshare_Dataset.rar) 
 
-Just so you know, you will need to extract the RAR file to access the dataset.
+Please note that you will need to extract the RAR file to access the dataset.
 
 
-## Project Overview
+### Project Overview
 
 This project involves processing and analyzing bikeshare data using various tools and technologies. The main steps of the project are:
 
@@ -37,7 +37,7 @@ This project involves processing and analyzing bikeshare data using various tool
 
 Let's go through each step in detail:
 
-### 1. Data Extraction and Loading
+#### 1. Data Extraction and Loading
 
 The project starts by extracting data from CSV files and loading it into a PostgreSQL database. This process is managed using Python and the Prefect workflow management tool.
 
@@ -45,7 +45,7 @@ The project starts by extracting data from CSV files and loading it into a Postg
 
 The ETL process is implemented using Python and the Prefect library. The `create_db_engine()` and `load_csv_to_postgresql()` functions are responsible for connecting to the PostgreSQL database and loading the CSV data into it.
 
-### 2. Data Transformation
+#### 2. Data Transformation
 
 After loading the data into PostgreSQL, several transformation steps are performed:
 * Processing regions data
@@ -54,7 +54,7 @@ After loading the data into PostgreSQL, several transformation steps are perform
 
 These transformations are implemented in the `process_regions()`, `process_station_info()`, and `process_trips()` functions.
 
-### 3. Data Analysis
+#### 3. Data Analysis
 
 The project includes several SQL queries to analyze the transformed data. These queries cover various aspects of the bikeshare system, such as:
 * Total trips by region and year
@@ -65,7 +65,7 @@ The project includes several SQL queries to analyze the transformed data. These 
 
 The queries are executed using the `execute_query()` function and the results are stored for further processing.
 
-### 4. Visualization
+#### 4. Visualization
 
 The final step involves uploading the analyzed data to Google BigQuery for visualization. The `upload_to_bigquery()` function handles this process.
 
@@ -90,7 +90,7 @@ This dashboard provides insights into various aspects of the bikeshare system, i
 
 I'm always excited to connect with fellow data enthusiasts, professionals in the BI field, or anyone interested in my journey. 
 
-I am passionate about data and continue to learn to improve my skills in the BI field. 
+I'm passionate to learn more about BI, continuously learning and improving to deliver impactful data-driven insights. 
 
 Your messages, questions, or feedback are warmly welcome!
 
