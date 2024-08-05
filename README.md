@@ -73,15 +73,15 @@ The image above shows the Prefect flow visualization for this project, demonstra
 
 Prefect played a crucial role in this project, enabling me to:
 
-**1. Define Complex Workflows:** Using Prefect's @flow and @task decorators, I was able to break down the ETL logic into manageable components.
+   **1. Define Complex Workflows:** Using Prefect's @flow and @task decorators, I was able to break down the ETL logic into manageable components.
    
-**2. Manage Task Dependencies:** Prefect allowed me to easily define the execution order of tasks, ensuring each step in the pipeline runs at the right time.
+   **2. Manage Task Dependencies:** Prefect allowed me to easily define the execution order of tasks, ensuring each step in the pipeline runs at the right time.
 
-**3. Monitoring and Logging:** With Prefect, I could easily track the status of each task and workflow, enabling efficient troubleshooting.
+   **3. Monitoring and Logging:** With Prefect, I could easily track the status of each task and workflow, enabling efficient troubleshooting.
    
-**4. Error Handling:** Prefect provided built-in mechanisms for error handling and retries, enhancing the reliability of the data pipeline.
+   **4. Error Handling:** Prefect provided built-in mechanisms for error handling and retries, enhancing the reliability of the data pipeline.
   
-**5. Workflow Visualization:** As shown in the image, Prefect offers intuitive workflow visualization, aiding in understanding and communicating the pipeline structure.
+   **5. Workflow Visualization:** As shown in the image, Prefect offers intuitive workflow visualization, aiding in understanding and communicating the pipeline structure.
 
 ### 5. Visualization
 
