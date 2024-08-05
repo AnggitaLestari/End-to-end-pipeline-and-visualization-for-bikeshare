@@ -37,7 +37,7 @@ This project involves processing and analyzing bikeshare data using various tool
 
 Let's go through each step in detail:
 
-#### 1. Data Extraction and Loading
+### 1. Data Extraction and Loading
 
 The project starts by extracting data from CSV files and loading it into a PostgreSQL database. This process is managed using Python and the Prefect workflow management tool.
 
@@ -45,7 +45,7 @@ The project starts by extracting data from CSV files and loading it into a Postg
 
 The ETL process is implemented using Python and the Prefect library. The `create_db_engine()` and `load_csv_to_postgresql()` functions are responsible for connecting to the PostgreSQL database and loading the CSV data into it.
 
-#### 2. Data Transformation
+### 2. Data Transformation
 
 After loading the data into PostgreSQL, several transformation steps are performed:
 * Processing regions data
@@ -54,7 +54,7 @@ After loading the data into PostgreSQL, several transformation steps are perform
 
 These transformations are implemented in the `process_regions()`, `process_station_info()`, and `process_trips()` functions.
 
-#### 3. Data Analysis
+### 3. Data Analysis
 
 The project includes several SQL queries to analyze the transformed data. These queries cover various aspects of the bikeshare system, such as:
 * Total trips by region and year
@@ -65,7 +65,7 @@ The project includes several SQL queries to analyze the transformed data. These 
 
 The queries are executed using the `execute_query()` function and the results are stored for further processing.
 
-#### 4. Visualization
+### 4. Visualization
 
 The final step involves uploading the analyzed data to Google BigQuery for visualization. The `upload_to_bigquery()` function handles this process.
 
