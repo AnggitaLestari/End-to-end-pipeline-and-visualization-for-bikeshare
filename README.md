@@ -1,14 +1,12 @@
 # Bikeshare-Data-ETL-Analysis-Visualization-Pipeline
 
-## Welcome to My Business Intelligence Project Repository!
+### Welcome to My Business Intelligence Project Repository!
 
 ## Hello there! 👋 
 
 This repository showcases my journey from a coding novice to a budding Business Intelligence and Data Analytics. 
 
-Here, you'll find the code for my Bikeshare Data ETL and Analysis project, 
-
-which I completed during the intensive Business Intelligence Bootcamp at Binar Academy.
+Here, you'll find the code for my Bikeshare Data ETL and Analysis project, which I completed during the intensive Business Intelligence Bootcamp at Binar Academy.
 
 ## About This Project
 
@@ -19,11 +17,13 @@ This comprehensive project demonstrates my newly acquired skills in:
 * Cloud Technology (Google BigQuery)
 * End-to-End Project Management
 
-**Dataset** The dataset used in this project is the Bikeshare Dataset, which can be downloaded from the following link: 
+**Dataset** 
+
+The dataset used in this project is the Bikeshare Dataset, which can be downloaded from the following link: 
 
 * [Bikeshare Dataset (RAR file)](https://bikesharedataset.s3.ap-southeast-2.amazonaws.com/Bikeshare_Dataset/Bikeshare_Dataset.rar) 
 
-Please note that you will need to extract the RAR file to access the dataset.
+Just so you know, you will need to extract the RAR file to access the dataset.
 
 
 ## Project Overview
@@ -41,7 +41,7 @@ Let's go through each step in detail:
 
 The project starts by extracting data from CSV files and loading it into a PostgreSQL database. This process is managed using Python and the Prefect workflow management tool.
 
-![ETL Process Diagram](images/etl_process_diagram.png)
+![alt text](https://github.com/AnggitaLestari/End-to-end-pipeline-and-visualization-for-bikeshare/blob/main/Images/system%20diagram.JPG?raw=true)
 
 The ETL process is implemented using Python and the Prefect library. The `create_db_engine()` and `load_csv_to_postgresql()` functions are responsible for connecting to the PostgreSQL database and loading the CSV data into it.
 
@@ -69,13 +69,13 @@ The queries are executed using the `execute_query()` function and the results ar
 
 The final step involves uploading the analyzed data to Google BigQuery for visualization. The `upload_to_bigquery()` function handles this process.
 
-![Prefect Flow Diagram](images/prefect_flow_diagram.png)
+![alt text](https://github.com/AnggitaLestari/End-to-end-pipeline-and-visualization-for-bikeshare/blob/main/Images/prefect%20bikeshare.JPG?raw=true)
 
 This diagram shows the main tasks in the Prefect flow, including data loading, verification, processing, and uploading to BigQuery.
 
 The final result of this project is a comprehensive dashboard visualizing various aspects of the bikeshare system:
 
-![Bikeshare Dashboard](images/bikeshare_dashboard.png)
+![alt text](https://github.com/AnggitaLestari/End-to-end-pipeline-and-visualization-for-bikeshare/blob/main/Images/San_Francisco_Ford_GoBike_Share_Monitoring_Dashboard.jpeg?raw=true)
 
 This dashboard provides insights into various aspects of the bikeshare system, including:
 * Total trips by region
