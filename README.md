@@ -110,6 +110,7 @@ Your messages, questions, or feedback are warmly welcome!
 
 * 💼 Connect with me on [LinkedIn](www.linkedin.com/in/4nggitalestari)
 * 📧 Email me at [anggitalestari@gmail.com]
+* [For other projects you can check (Link)](https://github.com/AnggitaLestari/Mocktest-BIA-BIE)
 
 
 Thank you for visiting my repository. Happy coding! 🚀📊
