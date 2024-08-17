@@ -89,6 +89,8 @@ The final result of this project is a comprehensive dashboard visualizing variou
 
 ![alt text](https://github.com/AnggitaLestari/End-to-end-pipeline-and-visualization-for-bikeshare/blob/main/Images/San_Francisco_Ford_GoBike_Share_Monitoring_Dashboard.jpeg?raw=true)
 
+### [Please check the detailed bikeshare dashboard on Lookerstudio (Link)](https://lookerstudio.google.com/reporting/962a747b-11b8-4e4e-895b-b8b3d8b966f0)
+
 This dashboard provides insights into various aspects of the bikeshare system, including:
 * Total trips by region
 * Regional bikeshare trends
